@@ -1,0 +1,18 @@
+.carousel-item img {
+    object-fit: cover;
+    image-resolution: 300dpi snap;
+}
+
+.carousel-item {
+    background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlemF8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    padding: 10px;
+}
+
+.carousel-item {
+    height: 600px;
+}
