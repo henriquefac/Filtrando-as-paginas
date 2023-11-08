@@ -18,45 +18,57 @@
   <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
-<body>
+<body data-bs-theme = "dark" id = '1'>
 
-  <header class="fixed-top">
-    <ul class="nav justify-content-center ">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html" aria-current="page">
-          <img src="assets/image/logo.png" alt="a">
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.html" aria-current="page">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about_us.html">Sobre Nós</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about_us.html">Estudos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about_us.html">Relatos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about_us.html">Nossos Profissionais</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about_us.html">Contatos</a>
-      </li>
-      <li class="nav-item">
-        <div class="btn-group" data-bs-toggle="buttons">
-          <label class="btn btn-primary active">
-            <input type="radio" class="me-2" name="choice-one" id="" autocomplete="off" checked> Choice
-          </label>
-          <label class="btn btn-primary">
-            <input type="radio" name="" id="" autocomplete="off"> Choice
-          </label>
-        </div>
-      </li>
-    </ul>
-  </header>
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+    <div class="container">
+
+    <a href="#" class="navbar-brand mb-0 h1"><img src="assets/image/logo.png" alt=""></a>
+       
+    <button 
+    type = "button"
+    data-bs-toggle = "collapse"
+    data-bs-target= "#navbarNav"
+    class="navbar-toggler"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>  
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Sobre Nós</a>
+            </li>
+
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Estudos</a>
+            </li>
+
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Relatos</a>
+            </li>
+
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Nossos Profissionais</a>
+            </li>
+
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Contatos</a>
+            </li>
+            
+        </ul>
+    </div>
+    </div>
+
+    
+</nav>
 
   <main>
     <div id="home-slider" class="carousel slide" data-bs-ride="carousel">
@@ -119,14 +131,99 @@
     </div>
   </main>
 
-  <footer>
-    <div class="card text-white bg-primary">
-      <img class="card-img-top" src="holder.js/100px180/" alt="Title">
-      <div class="card-body">
-        <h4 class="card-title">Footer</h4>
-        <p class="card-text">Text</p>
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
       </div>
-    </div>
+      <!-- Left -->
+ 
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+ 
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Filtrando as Páginas
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Sobre Nós</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Estudos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Relatos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Nossos Profissionais</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Contatos</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+ 
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
+            <p><i class="fas fa-home me-3"></i> Fortaleza, CE, BR</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +55 99999-9999</p>
+            <p><i class="fas fa-print me-3"></i> +55 99999-99999</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+ 
+
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->
@@ -137,6 +234,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+
+
+
 
 </body>
 
