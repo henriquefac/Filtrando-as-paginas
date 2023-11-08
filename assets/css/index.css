@@ -29,6 +29,10 @@ header {
     max-height: 720px;
 }
 
+.card .text-white .bg-primary img {
+    width: 120px;
+}
+
 
 
 /* Footer */
