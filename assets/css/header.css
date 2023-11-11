@@ -1,0 +1,12 @@
+/* Elements */
+li {
+    padding: 12px;
+}
+
+header {
+    background-color: #eee;
+}
+
+.nav-link img {
+    height: 56px;
+}

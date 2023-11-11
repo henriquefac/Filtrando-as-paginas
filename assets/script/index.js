@@ -1,19 +1,12 @@
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("slide");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 10000); // Change image every 2 seconds
+function changeTheme() {
+    var nav = document.getElementsByTagName('nav')
+    var body = document.getElementsByTagName('body')
+    var btn = document.getElementsByTagName('button')
+    console.log(btn);
+    console.log(body[0]);
+    if (nav[0].className == "navbar navbar-expand-md fixed-top navbar-light bg-light") {
+        nav[0].className += " navbar-dark bg-dark"
+    } else {
+        nav[0].className = "navbar navbar-expand-md fixed-top navbar-light bg-light"
+    }
 }
